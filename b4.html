@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = parseInt(prompt('Nhập x:'))
+    let y = parseInt(prompt('Nhập y'))
+    let z = parseInt(prompt('Nhập z'))
+    if (x > y && x > z) {
+        alert('x là số lớn nhất')
+    // } else if (x === y && x > z) {
+    //     alert('x và y là số lớn nhất')
+    // } else if (x > y && x === z) {
+    //     alert('x và z là số lớn nhất')
+    // } else if (y === z) {
+    //     alert('y và z là số lớn nhất')
+    } else if (y > z) {
+        alert('y là số lớn nhất')
+    } else {
+        alert('z là số lớn nhất')
+    }
+
+    if (x === y && y === z) {
+        alert("3 số bằng nhau")
+    }
+</script>
+</body>
+</html>

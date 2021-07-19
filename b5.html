@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let testmarks = parseInt(prompt('Nhập điểm bài kiểm tra:'))
+    let midtermtestscore = parseInt(prompt('Nhập điểm kiểm tra giữa kì:'))
+    let finalexamscore = parseInt(prompt('Nhập điểm kiểm tra cuối kì:'))
+    let mediumscore = (testmarks + midtermtestscore + finalexamscore)/3
+    if (mediumscore >= 9)
+        alert('Bạn đạt học sinh giỏi')
+    else if (mediumscore >= 7)
+        alert('Bạn đạt học sinh khá')
+    else if (mediumscore >= 5)
+        alert('Bạn đạt học sinh trung bình')
+    else
+        alert('Bạn đạt học sinh yếu')
+</script>
+</body>
+</html>
